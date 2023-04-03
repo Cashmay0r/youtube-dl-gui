@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron . --dev",
-    "build": "electron-builder",
+    "build": "npx electron-builder",
+    "build:win": "npx electron-builder --win portable --x64",
     "lint": "eslint {**/modules/**/*.js,/*.js} && eslint renderer/*.js",
     "test": "jest --coverage",
     "quick-test": "jest && eslint {**/modules/**/*.js,/*.js} && eslint renderer/*.js"

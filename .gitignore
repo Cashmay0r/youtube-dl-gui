@@ -1,4 +1,11 @@
 /.env
 /node_modules
 /.vs
-/binaries
+dist/
+binaries/
+.DS_Store
+taskList
+userSettings
+
+
+out/
